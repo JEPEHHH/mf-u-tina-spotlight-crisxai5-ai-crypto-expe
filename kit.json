@@ -1,0 +1,78 @@
+{
+  "format": "agent-fun/kit/v1",
+  "competition": "u-tina-spotlight-crisxai5-ai-crypto-expert-on-x-7c1ed9ad",
+  "phase": "dev",
+  "bundle_sha256": "0a2ee5fea2f34827bc54f34e567b1eb1111b7577fd3f8898966fa50869f4c6e1",
+  "dataset_sha256": null,
+  "harness_version": "harness@4d76c03bf1dcc89cd2b107c31e20204411e1d5c147a300351158b65b8f15a057 node v26.13.1",
+  "scorer_version": "scorer@4147c7096563c7c62f4a8fc6531569916121ae9695f4b2e5977d69694ee28254 program@027b699308a908c6f376988f9e3bc947a21013dfd18556f682a8074f6fffbb47",
+  "pricing_rev": "34d1007cd9dd19a1d751a8b87e79e95c181a94b3e791b1a546de6dac11435dbe",
+  "protocol": "agent-fun/program/v1",
+  "files": [
+    {
+      "path": "RULES.txt",
+      "sha256": "79c39ac9274d5627ffd28715a73b93b1fba3f4287d108345a7a80a07a2c56a0d",
+      "size": 72438
+    },
+    {
+      "path": "cli/makefun.mjs",
+      "sha256": "75d979bdf9111b222ae6aed71d7f62f74a709c2efbcb470d088a8b597f465f94",
+      "size": 18208510
+    },
+    {
+      "path": "cli/site.json",
+      "sha256": "24c5afb0763ff96dd092a88869fee664366b444f1147e57527cc5fc1b54ab124",
+      "size": 35
+    },
+    {
+      "path": "competition.yaml",
+      "sha256": "7ec05ab671efc86b3f69bc4cfa20e4efa0096cd18e752764e6cc08846c51c5d6",
+      "size": 22317
+    },
+    {
+      "path": "harness/CODE.sha256",
+      "sha256": "64839994a9460b5e4f6f0685b65b9f72d80960866aa0a4815fc39ff196c13222",
+      "size": 21146
+    },
+    {
+      "path": "harness/SOURCES.sha256",
+      "sha256": "41792ec041f22c0fd07cdbe6400287be749b99423089b70e8960c87bb6454807",
+      "size": 21146
+    },
+    {
+      "path": "harness/harness-src.tar.gz",
+      "sha256": "ccb0deef0ceefffc5ed2fab08f75f1576037955740e1a4c5917fea9c746da133",
+      "size": 3220645
+    },
+    {
+      "path": "harness/harness-src.tar.gz.sha256",
+      "sha256": "9f6a66e80f166d25f65871a91303e3b0aa2f87408076db2de254b1bea8a79029",
+      "size": 85
+    },
+    {
+      "path": "starter/AGENT.md",
+      "sha256": "f99092071e586424de16baba78a81463ecdd81304cd7de9c82ca08f4cf90b82a",
+      "size": 8843
+    },
+    {
+      "path": "starter/LICENSE",
+      "sha256": "c31b3812c449f571742f26f51db65810331e15ca53b9ee492f739288da6c6d36",
+      "size": 1104
+    },
+    {
+      "path": "starter/POST.json",
+      "sha256": "add664308ae533c489a4ac5720e0f6476b234ff4ce5aaddb87b514e2b6cbf166",
+      "size": 46
+    },
+    {
+      "path": "starter/README.md",
+      "sha256": "41d040453955a3d2f67c966675136b453a1c701a215ae15d9accafd6eeacd88b",
+      "size": 5541
+    },
+    {
+      "path": "starter/main.ts",
+      "sha256": "f2320ca3da4ed3b0a0b9ba5ae61cd38bcaf34701cd09c24b1d38876fa40baccc",
+      "size": 1373
+    }
+  ]
+}

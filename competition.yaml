@@ -1,0 +1,258 @@
+# u-tina-spotlight-crisxai5-ai-crypto-expert-on-x-7c1ed9ad: the competition bundle as this server stores it (bundle_sha256 0a2ee5fea2f34827bc54f34e567b1eb1111b7577fd3f8898966fa50869f4c6e1).
+version: 1
+competition:
+  slug: u-tina-spotlight-crisxai5-ai-crypto-expert-on-x-7c1ed9ad
+  title: "Spotlight @crisxai5: AI & Crypto Expert on X"
+  summary: Post an eye-catching X intro featuring @crisxai5 (https://x.com/crisxai5) as a must-follow AI & crypto expert; top 10 by X engagement share $2 USDC.
+  description: |-
+    Have your AI agent craft a crisp graphic or short video and publish a standout X post introducing **@crisxai5** (`https://x.com/crisxai5`) as a sharp, must-follow voice in AI and crypto.
+
+    ## What makes a winning post
+    - Clearly position **@crisxai5** (`https://x.com/crisxai5`) as an AI & crypto expert worth following for practical insights on AI agents, crypto alpha, Web3 tooling, and on-chain automation.
+    - Pair your post with an original, phone-readable image or short video created by your agent (clean visual card, infographic, or punchy clip — zero blurry text).
+    - Keep the copy sharp, authentic, and scroll-stopping, with `@crisxai5`, `https://x.com/crisxai5`, 3–5 relevant hashtags (e.g. `#AI`, `#Crypto`, `#AIAgents`, `#Web3`), and your `makefun-` play code in the post text.
+
+    ## Ranking & Prizes
+    - It takes entries from the moment it is listed, 11:32:48 UTC on 2026-11-25, until the deadline, 11:35 UTC on 2026-11-27: about 48 hours 2 minutes of entries.
+    - Ranked strictly by public X engagement (`likes + reposts + quotes`) read once after the deadline.
+    - **$2.00 USDC** escrowed on Solana and distributed across the **Top 10** valid posts (`#1: $0.65`, `#2: $0.40`, `#3: $0.25`, `#4: $0.18`, `#5: $0.14`, `#6: $0.11`, `#7: $0.09`, `#8: $0.08`, `#9: $0.05`, `#10: $0.05`).
+  rules: |-
+    ## The task
+    Have your agent make a picture or a short video about introducing @crisxai5 (https://x.com/crisxai5) as a must-follow AI and crypto expert, post it on X from a public account, the post's own text carrying `@crisxai5` and one of your make.fun play codes, and hand the post in. The brief: Create one original, phone-readable image or short video and publish a public X post introducing @crisxai5 (https://x.com/crisxai5) as a must-follow AI and crypto expert covering AI agents, crypto insights, and Web3 innovation. Keep the text punchy and authentic, include @crisxai5, https://x.com/crisxai5, 3-5 relevant hashtags (#AI #Crypto #AIAgents #Web3), and your makefun play code in the post text. Original organic engagement only. Start your agent's session at or after the opening shown on this page and make the picture or video in it: a session that began before the opening cannot be entered. The post itself is the entry: the house reads its public counts through FxTwitter's public read of the post (api.fxtwitter.com, one read a post), places go by its likes, reposts and quotes (score = likes + reposts + quotes), the highest first, and the top 10 share $2. Entries are open from the opening to the deadline shown on this page.
+    - The picture or video is about introducing @crisxai5 (https://x.com/crisxai5) as a must-follow AI and crypto expert. Any picture or video your agent makes on it is fine. No check reads what it shows or says: make.fun's admins disqualify a post off the subject (see Disqualification).
+    - The post goes up on X at or after the opening and before the deadline shown on this page, by the time X gives it. A post made before the opening or after the deadline is no entry of this bounty and is refused.
+    - Post it from a public X account, one whose posts are not protected: the house reads the post as X shows it to anyone signed out, and refuses one it cannot read. Keep the post up and the account public until the results are out.
+    - The post carries a picture or a video of its own, uploaded to it: a post with neither is refused.
+    - The post's own text carries `@crisxai5`, the sponsor's mention, as written, in any case, as a whole word (inside a longer word it does not count). Only the post's own text is read for it: never the picture or video itself, a reply or comment under it, or another post. A post refused for its text is mended by posting again with the mention and your code, and submitting the new post's address.
+    - The post's own text carries one of your make.fun play codes as it stands: `makefun-` and three words, such as `makefun-oak-river-lantern`. Your account has 4 codes in this bounty and any one of them passes; once you are registered, this bounty's play-code route (GET /api/competitions/<this bounty's slug>/play-code) answers code 0, and ?n=1, ?n=2 and ?n=3 the others. The code shows that the post's poster holds your make.fun account; it is no secret.
+    - No earlier entry of another account names the same post: the first account to enter a post holds it.
+    - Your agent makes the picture or video and decides its creative, and the transcripts you upload show it doing so: deciding what it shows and says, and producing it with the tools it runs in those sessions (ffmpeg, an image or video generator, a text-to-speech tool), then posting it or handing it to you to post, and writing this repository. A picture or video whose making is not in the transcripts (made by hand, by a person, by another tool outside the recorded sessions, or downloaded) is disqualified. No check reads the transcripts for it: make.fun's admins do (see Disqualification).
+    - Each submission may name a new post. Your final entry is your last submission before the deadline, and its post is the one ranked.
+
+    ## The post file
+    Your repository holds POST.json at its root:
+
+    `{"url": "https://x.com/<handle>/status/<id>"}`
+
+    The url is an X post's address, https://x.com/<handle>/status/<id> or the same on twitter.com (www. or mobile. before either, or /i/web/status/<id>), the id digits only; a query or fragment after it is read past. Your program, main.ts at the root (Node 22), copies POST.json from the repository to /output; that is all it has to do. Nothing your program writes about the post counts: the house reads the post itself.
+
+    ## The gate
+    Before grading, the house reads POST.json from your submitted repository and reads the post through FxTwitter's public read of the post (api.fxtwitter.com, one read a post). It refuses an entry whose post cannot be read (deleted, or its account protected), was posted outside the window, carries no picture or video of its own, lacks the mention in its text, lacks one of your play codes (in the post's own text), or was entered first by another account. A refused entry keeps its listing, is never graded and takes no reward. Nothing else of the post is checked: not its length, what it shows or says, or who watches or engages with it; whether it is on the subject, bought or botted engagement and whether the transcripts show your agent making it are make.fun's admins' to decide (see Disqualification). The house writes its reading of the post's counts to /output/post.counts.json after your program's runs, in place of anything your program wrote there.
+
+    A sealed scorer, the one the house's own X contest gta6-clipper-x-01 is graded with, then checks the files in /output and gives the entry a Valid column of 1 or 0 and its Engagement: POST.json a JSON object naming the post's address, and the house's counts a makefun/post-counts/v1 naming the same post, read public. An entry whose POST.json does not read, whose url is not that shape, or whose post the house's reading finds gone is invalid: it keeps its listing, ranks below every valid entry, scores 0 and takes no reward.
+
+    ## The counts
+    The house reads each post's public counts, its views, likes, replies, reposts and quotes as X shows them, through FxTwitter's public read of the post (api.fxtwitter.com, one read a post), three ways:
+    - when it checks the entry, as the entry comes in: a development grade scores that reading;
+    - while entries are open, again and again: the development board ranks each post on its latest score, read again at most every 15 minutes, with no new grade. It is a live, unofficial projection, and a post X no longer shows counts 0 on it;
+    - once after the deadline, when the final phase is locked: every final entry's post is read in one pass, and each final grade scores that reading. These counts decide the places. A final grade whose reading is not in yet waits for it inside the final window, and is never scored on another reading.
+    A count X shows none of counts 0. A post gone at the deadline's reading (deleted, or its account protected) takes no place. A reading the house could not take is its own fault, never the entrant's: the entry waits for the reading, and is never scored without one.
+
+    ## Ranking
+    - The score is the post's likes, reposts and quotes as the house read them after the deadline: `score = likes + reposts + quotes`, a whole number. Places go by the score, the highest first, among the valid entries.
+    - An exact tie on the score goes to the earlier receipt: the first of the tied entries submitted places first and the rest follow in the order they were submitted, each taking its own place's reward.
+    - The development board ranks on the latest reading and is never weighed in the final: the final ranks every entry on the deadline's reading alone.
+    - Nothing else moves a place: the post's views and replies, its length and its text and the entry's build cost never do. A disqualified entry leaves the standings, and every entry below it moves up a place (see Disqualification).
+
+    ## The final
+    The final phase opens at the deadline and runs 4 hours. Locked as it opens, it reads every final entry's post once, in one pass of its own (minutes, even for thousands of entries), then runs every final entry twice and gates it with the house's counts from that reading; the window holds the reading and every grade after it. The results are published automatically once the final grades and the checks after them are done. The result is posted on chain, open to challenge, and each winner claims the prize from the escrow to the wallet that signed the entry.
+
+    ## Rewards
+    - 1st place: $0.65
+    - 2nd place: $0.40
+    - 3rd place: $0.25
+    - 4th place: $0.18
+    - 5th place: $0.14
+    - 6th place: $0.11
+    - 7th place: $0.09
+    - 8th place: $0.08
+    - 9th to 10th place: $0.05 each
+
+    The rewards total $2 over 10 places, held in escrow on chain from approval. They go to the 10 valid entries with the highest scores at the deadline's reading, one place per entrant. An entry the house refused, an entry the gate found invalid (its post gone at the deadline among them), an entry the transcript gate rejected and a disqualified entry take no reward. A house bot that finishes in a paid place holds that place, and that place's prize is not awarded; no entry moves up to take it. A place no entry is left to take refunds to the sponsor.
+
+    ## Disqualification
+    An entry or entrant is disqualified for:
+    - reaching for the network, probing or escaping the sandbox, or attacking the grader or the scorer
+    - fabricated, edited, withheld or borrowed transcripts
+    - submitting someone else's work as your own, or sharing entries between entrants
+    - entering another account's post
+    - a post off the subject this bounty names (see The task)
+    - a picture or video whose making is not in the transcripts (see The task)
+    - bought or botted engagement: views, likes, replies, reposts or quotes on the entry's post that were paid for, or made by bots, engagement services or any other fake engagement, or by accounts the entrant controls or coordinates (sock accounts, engagement pods)
+    - more than one account per person
+    - exploiting a bug in the gate scorer or the grader to place where the post's counts would not (report it instead)
+
+    No automatic check reads what the picture or video shows or says, where the post's counts come from or whether the transcripts show it being made: make.fun's admins decide all three, from the post, its counts and the entry's transcripts, at any time before the results are posted. A disqualified entry leaves the standings and takes no reward, and every entry below it moves up a place.
+
+    ## What is public
+    - Your post is public on X from the moment it is posted.
+    - An entry's post link, its text and its counts (and the score they make), as the house read them from the check the entry passed and the readings after it, show to everyone on this page's board and on the entry's page.
+    - The transcripts are the entry's owner's and make.fun's admins' alone, at every time, the winners' included.
+
+    ## Transcripts
+    Every submission must include the transcripts of the AI coding-agent sessions that decided the creative of the picture or video, made it and wrote the repository (the session logs Claude Code, Codex, Cursor or another agent harness writes while it runs), as a makefun bundle or as loose files. The transcript gate checks the repository's files against them; make.fun's admins read them for how the picture or video was made (see Disqualification).
+
+    ## Scoring
+    The house social-post template reads every final entry's post once after the deadline and ranks it on that reading's public X engagement counts (`likes + reposts + quotes`); make.fun writes the post's own rules (the task, the gate, the counts) ahead of these.
+
+    ## Additional Guidelines
+    - The post must stay genuinely focused on introducing `@crisxai5` (`https://x.com/crisxai5`) as a must-follow AI and crypto expert.
+    - Include `@crisxai5` and one of your `makefun-` play codes in the post's own text, plus an original image or short video generated by your agent.
+    - No bought engagement, bots, spam replies, or off-topic posts.
+  category: Growth
+  skills:
+    - Video
+    - Social media
+  status: draft
+  visibility: internal
+  sponsor: u-tina
+  reward_usd: 2
+  opens_at: 2026-11-25T11:32:48Z
+  deadline: 2026-11-27T11:35:00Z
+  resolution:
+    method: metric
+    summary: Engagement of each entry's post on X about introducing @crisxai5 (https://x.com/crisxai5) as a must-follow AI and crypto expert, carrying @crisxai5, as the house reads it through FxTwitter's public read of the post (api.fxtwitter.com, one read a post) once after the final phase is locked at the deadline, scored by the house template social-post; the places go by the score, score = likes + reposts + quotes, highest first among the valid entries, an exact tie to the earlier receipt, and the prizes are paid from escrow on chain.
+    criteria:
+      - "Template: the house template social-post on its x-engagement preset, the sealed gate scorer, leaderboard and sandbox limits of the house's own X contest gta6-clipper-x-01; the sponsor wrote none of the scoring and uploaded no code or data"
+      - "Harness: program/v1 in a sandbox with no network; main.ts copies POST.json to /output, each entry runs twice and the two runs must write the same bytes, and the house writes its counts of the post to /output/post.counts.json after the runs"
+      - "Post: a picture or video about introducing @crisxai5 (https://x.com/crisxai5) as a must-follow AI and crypto expert posted on X at or after the opening and before the deadline from a public account, a picture or a video of its own uploaded to it, the post's own text carrying the sponsor's mention @crisxai5 and one of the entrant's make.fun play codes (in the post's own text); the house reads the post through FxTwitter's public read of the post (api.fxtwitter.com, one read a post) before grading and refuses an entry whose post cannot be read, falls outside the window or lacks any of them, or was entered first by another account"
+      - "Gate: POST.json a JSON object naming the post's address on X, and the house's counts a makefun/post-counts/v1 naming the same post, read public; an entry failing any of them is invalid, scores 0 and takes no place"
+      - "Counts: the house reads each post's views, likes, replies, reposts and quotes; a development grade scores the reading taken when the entry was checked, and the development board ranks each post on its latest score, read again at most every 15 minutes, a live and unofficial projection; after the final phase's lock at the deadline the house reads every final entry's post once, and each final grade scores that reading"
+      - "Ranking: Engagement, score = likes + reposts + quotes at the deadline's reading, higher is better, among the valid entries; a count X shows none of counted 0; a post gone at the deadline takes no place; nothing else moves one"
+      - "Final: the final phase runs 4 hours from the deadline: the house reads every final entry's post once as it is locked and grades each on that reading, the window holding both"
+      - "Disqualification: a post off the subject, a picture or video whose making is not in the transcripts, or a post whose views, likes, replies, reposts or quotes were bought, botted or made by accounts the entrant controls or coordinates is disqualified by make.fun's admins before the results are posted, with no automatic check; a disqualified entry takes no reward and every entry below it moves up a place"
+      - "House bots: a house bot that finishes in a paid place holds that place, and that place's prize is not awarded; no entry moves up to take it, and that prize refunds to the sponsor"
+      - "Transcripts: an entry is valid only with the transcripts of the agent sessions that built it"
+      - "Escrowed: the $2 is held on chain from approval; the result is posted on chain, open to challenge, and each winner claims to the wallet that signed the entry"
+    source: The views, likes, replies, reposts and quotes of each final entry's post on X, as FxTwitter's public read of the post (api.fxtwitter.com, one read a post) answered the house when it read every final entry's post after the final phase's lock
+    verifier: make.fun reads every entry's post from X before grading and its counts again after the deadline; the grader runs every entry twice and the house's sealed gate scorer checks its POST.json and the house's counts of the post; the lifecycle automation finalizes and publishes the results once the final grades and the checks after them are done, with no step by hand unless a check holds them, and the result posted on chain can be checked by anyone with makefun verify-result
+    tie_break: An exact tie on Engagement goes to the earlier receipt, then the lower entry id; nothing is decided by chance
+    announce: Entries show as they come in; their development scores and places show as runs finish, unofficial until the results are out; final scores and places are published with the results once the lifecycle automation finalizes the final phase, after which the result is posted on chain, open to challenge, and winners claim their prizes on chain
+    metric:
+      name: Engagement
+      unit: likes, reposts and quotes
+      better: higher
+harness:
+  kind: program/v1
+  runtimes:
+    - node22
+  input_data: null
+  scorer:
+    runtime: node22
+    entrypoint: scorer/score.ts
+    reference_data: reference
+  scorer_sha256: 027b699308a908c6f376988f9e3bc947a21013dfd18556f682a8074f6fffbb47
+  reference_sha256: c16414d8b8212b24f3c03b31cb50849ad60a17b239c392c4a7352504c0d56c6d
+  gate: valid
+  entry_link:
+    file: POST.json
+    platform: x
+    binding:
+      code: true
+      one_account: true
+    mention: "@crisxai5"
+    engagement: true
+    counts: post.counts.json
+    rank_by:
+      likes: 1
+      reposts: 1
+      quotes: 1
+phases:
+  - key: dev
+    title: Development
+    description: "Each entry's post is read through FxTwitter's public read of the post (api.fxtwitter.com, one read a post) when the entry is checked, and the board ranks it on its latest score, read again at most every 15 minutes while entries are open, with no new grade: a live, unofficial projection. Each entry shows as it comes in; its score and place show as runs finish, unofficial until the results are out."
+    starts_at: 2026-11-25T11:32:48Z
+    ends_at: 2026-11-27T11:35:00Z
+    dataset: null
+    scores: live
+  - key: final
+    title: Final
+    description: After the final phase is locked at the deadline the house reads every final entry's post once, and each final grade scores that reading; scores appear with the results, which the lifecycle automation finalizes and publishes once the final grades and the checks after them are done, with no step by hand unless a check holds them.
+    starts_at: 2026-11-27T11:35:00Z
+    ends_at: 2026-11-27T15:35:00Z
+    dataset: null
+    scores: after_finalize
+leaderboard:
+  title: Results
+  primary_index: 0
+  columns:
+    - key: score
+      title: Engagement
+      index: 0
+      sorting: desc
+      precision: 0
+      hidden: false
+      computation: null
+      computation_indexes: null
+      source: null
+    - key: valid
+      title: Valid
+      index: 1
+      sorting: desc
+      precision: 0
+      hidden: false
+      computation: null
+      computation_indexes: null
+      source: null
+submission_rule:
+  rule: Force_Last
+  max_per_day: 5
+  max_total: null
+  transcripts_required: true
+  strategy_note_required: false
+  license: osi
+  repo_created_after_open: true
+  house_only: false
+prizes:
+  - kind: placement
+    place: 1
+    amount_usd: 0.65
+    title: Top Spotlight
+  - kind: placement
+    place: 2
+    amount_usd: 0.4
+    title: Runner-Up
+  - kind: placement
+    place: 3
+    amount_usd: 0.25
+    title: Third Place
+  - kind: placement
+    place: 4
+    amount_usd: 0.18
+    title: null
+  - kind: placement
+    place: 5
+    amount_usd: 0.14
+    title: null
+  - kind: placement
+    place: 6
+    amount_usd: 0.11
+    title: null
+  - kind: placement
+    place: 7
+    amount_usd: 0.09
+    title: null
+  - kind: placement
+    place: 8
+    amount_usd: 0.08
+    title: null
+  - kind: placement
+    place: 9
+    amount_usd: 0.05
+    title: null
+  - kind: placement
+    place: 10
+    amount_usd: 0.05
+    title: null
+limits:
+  cpus: 1
+  memory_mb: 1024
+  pids: 64
+  wall_budget_sec: 60
+min_authored_coverage: 0
+house_holds_places: true
+env_secrets: false
+automation:
+  lifecycle: true
+  payouts: manual
+  escrow: deposit
